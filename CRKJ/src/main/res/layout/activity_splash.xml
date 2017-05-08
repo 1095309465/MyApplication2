@@ -7,9 +7,16 @@
     android:layout_height="match_parent">
 
     <com.facebook.drawee.view.SimpleDraweeView
-        android:id="@+id/title_icon"
+        android:id="@+id/img"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         fresco:placeholderImage="@mipmap/loading"
         fresco:placeholderImageScaleType="fitXY" />
+
+    <com.chuangrong.tourism.widget.TimeCountWidget
+        android:id="@+id/countWidget"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
 </RelativeLayout>

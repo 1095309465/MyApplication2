@@ -76,12 +76,12 @@
         "source": "D:\\android\\MyApplication2\\IMKit\\src\\main\\res\\layout\\rc_base_activity_layout.xml"
     },
     {
-        "merged": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_cs_single_choice_layout.xml",
-        "source": "D:\\android\\MyApplication2\\IMKit\\src\\main\\res\\layout\\rc_cs_single_choice_layout.xml"
-    },
-    {
         "merged": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fr_messagelist.xml",
         "source": "D:\\android\\MyApplication2\\IMKit\\src\\main\\res\\layout\\rc_fr_messagelist.xml"
+    },
+    {
+        "merged": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_cs_single_choice_layout.xml",
+        "source": "D:\\android\\MyApplication2\\IMKit\\src\\main\\res\\layout\\rc_cs_single_choice_layout.xml"
     },
     {
         "merged": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ext_voice_input.xml",

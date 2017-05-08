@@ -460,12 +460,12 @@
         "source": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\exploded-aar\\MyApplication2\\IMKit\\unspecified\\res\\layout\\rc_picsel_grid_camera.xml"
     },
     {
-        "merged": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_voip_listitem_select_member.xml",
-        "source": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_voip_listitem_select_member.xml"
-    },
-    {
         "merged": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_dialog_popup_options.xml",
         "source": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\exploded-aar\\MyApplication2\\IMKit\\unspecified\\res\\layout\\rc_dialog_popup_options.xml"
+    },
+    {
+        "merged": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_voip_listitem_select_member.xml",
+        "source": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_voip_listitem_select_member.xml"
     },
     {
         "merged": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_cs_alert_robot_evaluation.xml",

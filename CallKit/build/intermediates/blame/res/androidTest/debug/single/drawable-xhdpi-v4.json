@@ -4,12 +4,12 @@
         "source": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\exploded-aar\\MyApplication2\\IMKit\\unspecified\\res\\drawable-xhdpi-v4\\rc_send_toggle.png"
     },
     {
-        "merged": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_cs_unresolved.png",
-        "source": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\exploded-aar\\MyApplication2\\IMKit\\unspecified\\res\\drawable-xhdpi-v4\\rc_cs_unresolved.png"
-    },
-    {
         "merged": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_ic_bubble_no_right.9.png",
         "source": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\exploded-aar\\MyApplication2\\IMKit\\unspecified\\res\\drawable-xhdpi-v4\\rc_ic_bubble_no_right.9.png"
+    },
+    {
+        "merged": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_cs_unresolved.png",
+        "source": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\exploded-aar\\MyApplication2\\IMKit\\unspecified\\res\\drawable-xhdpi-v4\\rc_cs_unresolved.png"
     },
     {
         "merged": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_btn_voice_normal.png",
@@ -92,12 +92,12 @@
         "source": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\exploded-aar\\MyApplication2\\IMKit\\unspecified\\res\\drawable-xhdpi-v4\\rc_no_hover.png"
     },
     {
-        "merged": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f62e.png",
-        "source": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\exploded-aar\\MyApplication2\\IMKit\\unspecified\\res\\drawable-xhdpi-v4\\u1f62e.png"
-    },
-    {
         "merged": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_ic_notice_point.png",
         "source": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\exploded-aar\\MyApplication2\\IMKit\\unspecified\\res\\drawable-xhdpi-v4\\rc_ic_notice_point.png"
+    },
+    {
+        "merged": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f62e.png",
+        "source": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\exploded-aar\\MyApplication2\\IMKit\\unspecified\\res\\drawable-xhdpi-v4\\u1f62e.png"
     },
     {
         "merged": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f608.png",
@@ -432,12 +432,12 @@
         "source": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\exploded-aar\\MyApplication2\\IMKit\\unspecified\\res\\drawable-xhdpi-v4\\rc_file_icon_excel.png"
     },
     {
-        "merged": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f624.png",
-        "source": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\exploded-aar\\MyApplication2\\IMKit\\unspecified\\res\\drawable-xhdpi-v4\\u1f624.png"
-    },
-    {
         "merged": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_btn_voice_hover.png",
         "source": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\exploded-aar\\MyApplication2\\IMKit\\unspecified\\res\\drawable-xhdpi-v4\\rc_btn_voice_hover.png"
+    },
+    {
+        "merged": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f624.png",
+        "source": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\exploded-aar\\MyApplication2\\IMKit\\unspecified\\res\\drawable-xhdpi-v4\\u1f624.png"
     },
     {
         "merged": "D:\\android\\MyApplication2\\CallKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f64a.png",
