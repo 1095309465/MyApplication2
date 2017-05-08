@@ -1,1 +1,1 @@
-include ':RongYun', ':CallKit', ':CallLib', ':IMKit', ':IMLib'
+include ':CRLY', ':IMLib', ':IMKit', ':CallLib', ':CallKit'

@@ -1,4 +1,4 @@
-package com.qsj.ry;
+package com.qsj.test;
 
 import org.junit.Test;
 

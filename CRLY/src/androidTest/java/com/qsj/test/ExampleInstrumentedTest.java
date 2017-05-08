@@ -1,4 +1,4 @@
-package com.qsj.ry;
+package com.qsj.test;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.qsj.ry", appContext.getPackageName());
+        assertEquals("com.qsj.test", appContext.getPackageName());
     }
 }
