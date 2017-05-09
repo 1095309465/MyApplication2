@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 第一块：头像加edittext -->
+    <!-- 第二块：单选按钮的切换 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="2dp" >
+
+        <ImageView
+            android:id="@+id/detail_wd"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="fitXY"
+            android:layout_margin="5dp"
+            android:onClick="btn"
+            android:src="@drawable/ic_default_avatar" />
+
+       
+	<!-- 去除光标  android:cursorVisible="false"-->
+        <EditText
+            android:id="@+id/fragment1_ed1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:hint="搜礼包"
+            android:background="@drawable/fragment1_shape"
+            android:drawableRight="@drawable/ic_search"
+            android:paddingRight="5dp"
+            android:focusable="false"
+            android:padding="5dp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <RadioGroup
+        android:id="@+id/rg_gift"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rbtn_shouyou_gift"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rbtn_shouyou_selsector"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="手游礼包"
+            android:textColor="@drawable/shouyou_selector" />
+
+        <RadioButton
+            android:id="@+id/rbtn_yeyou_gift"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rbtn_yeyou_selsector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="页游礼包"
+            android:textColor="@drawable/shouyou_selector" />
+    </RadioGroup>
+    <!-- 第三块：ViewPager侧滑容器 -->
+     <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue1">#FF0080FF</color>
+    <color name="gold">#b89766</color>
+    <color name="normal">#00ffffff</color>
+    <color name="oring">#fff9a142</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">72G游戏助手课堂版</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_animtor">AnimtorActivity</string>
+    <string name="title_activity_floor">Floor</string>
+    <string name="title_activity_game__detail">Game_Detail</string>
+    <string name="title_activity_gift__cnxh">Gift_Cnxh</string>
+    <string name="title_activity_gift__detail">Gift_Detail</string>
+    <string name="title_activity_huo_dong_detail">HuoDongDetail</string>
+    <string name="title_activity_ji_fen_shang_cheng">JiFenShangCheng</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_web_view">WebView</string>
+    <string name="title_activity_wo_de">WoDe</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="processDialog">
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowFullscreen">true</item>
+        <!--<item name="android:windowIsTranslucent">false</item>&lt;!&ndash;半透明&ndash;&gt;-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景透明-->
+
+        <!--<item name="android:backgroundDimEnabled">true</item>&lt;!&ndash;模糊&ndash;&gt;-->
+        <item name="android:backgroundDimAmount">0.5</item>
+        <!--<item name="android:alpha">0.3</item>-->
+    </style>
+    <style name="roomRatingBar" parent="@android:style/Widget.RatingBar">
+        <!-- 对继承以后不符合要求的属性进行更改 -->
+        <!-- 这里的图片使用自己定义的layerlist的图片 -->
+        <item name="android:progressDrawable">@drawable/ratingbar_layerlist</item>
+        <!-- 重新修改高度可以改变默认的星的大小 -->
+        <item name="android:minHeight">20dp</item>
+        <item name="android:maxHeight">20dp</item>
+        <item name="android:isIndicator">true</item>
+    </style>
+</resources>

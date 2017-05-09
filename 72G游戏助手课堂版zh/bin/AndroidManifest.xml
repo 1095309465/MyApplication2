@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.game_assistent"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+
+        <!-- 这里的theme 是所有界面的样式 -->
+        <activity
+            android:name=".GuideActivity"
+            android:label="@string/app_name" >
+
+            <!-- 这里的theme 是单个界面的样式 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".AnimtorActivity"
+            android:label="@string/title_activity_animtor" >
+        </activity>
+        <activity
+            android:name=".Gift_Cnxh"
+            android:label="@string/title_activity_gift__cnxh" >
+        </activity>
+        <activity
+            android:name=".Game_Detail"
+            android:label="@string/title_activity_game__detail" >
+        </activity>
+        <activity
+            android:name=".Gift_Detail"
+            android:label="@string/title_activity_gift__detail" >
+        </activity>
+        <activity
+            android:name=".HuoDongDetail"
+            android:label="@string/title_activity_huo_dong_detail" >
+        </activity>
+        <activity
+            android:name=".JiFenShangCheng"
+            android:label="@string/title_activity_ji_fen_shang_cheng" >
+        </activity>
+        <activity android:name=".Login" >
+        </activity>
+        <activity
+            android:name=".WebViewShow"
+            android:label="@string/title_activity_web_view" >
+        </activity>
+        <activity
+            android:name=".Floor"
+            android:label="@string/title_activity_floor" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,43 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="processDialog" >
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowFullscreen">true</item>
+        <!--<item name="android:windowIsTranslucent">false</item>&lt;!&ndash;半透明&ndash;&gt;-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景透明-->
+
+        <!--<item name="android:backgroundDimEnabled">true</item>&lt;!&ndash;模糊&ndash;&gt;-->
+        <item name="android:backgroundDimAmount">0.5</item>
+        <!--<item name="android:alpha">0.3</item>-->
+    </style>
+    
+     <!-- 自定义ratingbar样式 -->
+    <style name="roomRatingBar" parent="@android:style/Widget.RatingBar">
+        <!-- 对继承以后不符合要求的属性进行更改 -->
+        <!-- 这里的图片使用自己定义的layerlist的图片 -->
+        <item name="android:progressDrawable">@drawable/ratingbar_layerlist</item>
+        <!-- 重新修改高度可以改变默认的星的大小 -->
+        <item name="android:minHeight">20dp</item>
+        <item name="android:maxHeight">20dp</item>
+        <item name="android:isIndicator">true</item>
+    </style>
+    
+
+</resources>

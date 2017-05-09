@@ -3,9 +3,11 @@ package com.chuangrong.tourism;
 import android.app.ActivityManager;
 import android.app.Application;
 import android.content.Context;
+import android.widget.Toast;
 
 import com.chuangrong.tourism.util.LogUtil;
 import com.chuangrong.tourism.util.SPUtils;
+import com.chuangrong.tourism.util.ToastUtil;
 import com.facebook.drawee.backends.pipeline.Fresco;
 
 /**
@@ -24,6 +26,7 @@ public class AppController extends Application {
         super.onCreate();
         if (getApplicationInfo().packageName.equals(getCurProcessName(getApplicationContext()))) {
             initFresco();
+            initToastUtil();
             initLogUtil();
             intiSPUtil();
         }
@@ -43,6 +46,13 @@ public class AppController extends Application {
     private void initLogUtil() {
         LogUtil.init(TAG, logFlag);
         LogUtil.show("初始化成功");
+    }
+
+    /**
+     * 初始化Toast
+     */
+    private void initToastUtil() {
+        ToastUtil.init(getApplicationContext());
     }
 
     /**

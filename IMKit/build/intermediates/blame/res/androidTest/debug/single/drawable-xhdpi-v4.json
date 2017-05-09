@@ -404,12 +404,12 @@
         "source": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_cs_back_icon.png"
     },
     {
-        "merged": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f382.png",
-        "source": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u1f382.png"
-    },
-    {
         "merged": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_menu_trangle.png",
         "source": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_menu_trangle.png"
+    },
+    {
+        "merged": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f382.png",
+        "source": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u1f382.png"
     },
     {
         "merged": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f605.png",
@@ -448,12 +448,12 @@
         "source": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_edit_text_background_hover.9.png"
     },
     {
-        "merged": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_select_check_sel.png",
-        "source": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_select_check_sel.png"
-    },
-    {
         "merged": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f606.png",
         "source": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u1f606.png"
+    },
+    {
+        "merged": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_select_check_sel.png",
+        "source": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_select_check_sel.png"
     },
     {
         "merged": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_cs_evaluate_plugin.png",
@@ -1304,12 +1304,12 @@
         "source": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_cs_leave_message_bg_hover.png"
     },
     {
-        "merged": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_ic_no.png",
-        "source": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_ic_no.png"
-    },
-    {
         "merged": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f62b.png",
         "source": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u1f62b.png"
+    },
+    {
+        "merged": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_ic_no.png",
+        "source": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_ic_no.png"
     },
     {
         "merged": "D:\\android\\MyApplication2\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f61c.png",

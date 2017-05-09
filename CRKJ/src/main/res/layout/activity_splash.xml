@@ -15,8 +15,8 @@
 
     <com.chuangrong.tourism.widget.TimeCountWidget
         android:id="@+id/countWidget"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_alignParentRight="true"
-        android:layout_margin="20dp"
-        android:layout_width="80dp"
-        android:layout_height="80dp" />
+        android:layout_margin="20dp" />
 </RelativeLayout>

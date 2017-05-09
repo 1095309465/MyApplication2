@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/72G游戏助手课堂版zh/72G游戏助手课堂版zh.iml" filepath="$PROJECT_DIR$/72G游戏助手课堂版zh/72G游戏助手课堂版zh.iml" />
       <module fileurl="file://$PROJECT_DIR$/CRKJ/CRKJ.iml" filepath="$PROJECT_DIR$/CRKJ/CRKJ.iml" />
       <module fileurl="file://$PROJECT_DIR$/CRLY/CRLY.iml" filepath="$PROJECT_DIR$/CRLY/CRLY.iml" />
       <module fileurl="file://$PROJECT_DIR$/CallKit/CallKit.iml" filepath="$PROJECT_DIR$/CallKit/CallKit.iml" />

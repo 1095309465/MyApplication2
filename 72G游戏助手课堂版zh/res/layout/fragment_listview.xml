@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 如何使用自定义的属性attr标签 -->
+<!-- 在外侧定义名称空间，名字随便起，值要根据实际情况定义 -->
+<!-- res-auto:在res下找到attr标签使用 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.example.custom.MyListView
+        android:id="@+id/lv_gift"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00FFFFFF"
+        android:fadingEdge="none"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:smoothScrollbar="true"
+        android:scrollbars="none"
+        android:fastScrollEnabled="false" >
+    </com.example.custom.MyListView>
+
+    <!--
+    <ListView
+        android:id="@+id/lv_gift"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00FFFFFF"
+        android:fadingEdge="none"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:listSelector="#00FFFFFF"
+        android:smoothScrollbar="true"
+        android:scrollbars="none"
+        android:fastScrollEnabled="false"
+         >
+    </ListView>    -->
+    <!-- android:divider=""    下滑线的颜色 -->
+    <!-- android:cacheColorHint="#00FFFFFF"  拖动过程中避免黑色背景的产生 -->
+    <!--
+android:headerDividersEnabled="false"
+        android:footerDividersEnabled="false"
+        取消头部和底部的下划线颜色
+android:fadingEdge="none"  拉到边缘时的线取消
+        android:scrollbars="none"   取消滚动条
+ android:listSelector="" 点击下去背景的颜色
+ android:smoothScrollbar="true"   可以滑动更加流畅 
+  android:fastScrollEnabled="false"  防止滑动太快，加载过快容易内存溢出
+    -->
+
+
+    <!--
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/ptr_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00FFFFFF"
+        android:divider="#FF888888"
+        android:dividerHeight="0.5dp"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:listSelector="#00FFFFFF"
+        android:scrollbars="none"
+        android:smoothScrollbar="true"
+        app:ptrAnimationStyle = "flip"
+        app:ptrMode = "both"
+         >
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+    -->
+
+</LinearLayout>
