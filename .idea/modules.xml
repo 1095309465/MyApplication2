@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/72G游戏助手课堂版zh/72G游戏助手课堂版zh.iml" filepath="$PROJECT_DIR$/72G游戏助手课堂版zh/72G游戏助手课堂版zh.iml" />
       <module fileurl="file://$PROJECT_DIR$/CRKJ/CRKJ.iml" filepath="$PROJECT_DIR$/CRKJ/CRKJ.iml" />
       <module fileurl="file://$PROJECT_DIR$/CRLY/CRLY.iml" filepath="$PROJECT_DIR$/CRLY/CRLY.iml" />
       <module fileurl="file://$PROJECT_DIR$/CallKit/CallKit.iml" filepath="$PROJECT_DIR$/CallKit/CallKit.iml" />
@@ -10,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/IMKit/IMKit.iml" filepath="$PROJECT_DIR$/IMKit/IMKit.iml" />
       <module fileurl="file://$PROJECT_DIR$/IMLib/IMLib.iml" filepath="$PROJECT_DIR$/IMLib/IMLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyApplication2.iml" filepath="$PROJECT_DIR$/MyApplication2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RecycleViewForScrollView/RecycleViewForScrollView.iml" filepath="$PROJECT_DIR$/RecycleViewForScrollView/RecycleViewForScrollView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RetrofitDemo/RetrofitDemo.iml" filepath="$PROJECT_DIR$/RetrofitDemo/RetrofitDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/cheesesquare/cheesesquare.iml" filepath="$PROJECT_DIR$/cheesesquare/cheesesquare.iml" />
     </modules>
   </component>

@@ -8,9 +8,9 @@
 
     <LinearLayout
         android:id="@+id/lin"
-        android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
         android:orientation="horizontal">
 
         <Button
@@ -44,10 +44,10 @@
     </LinearLayout>
 
     <FrameLayout
-        android:layout_above="@id/lin"
         android:id="@+id/ly_content"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_above="@id/lin">
 
     </FrameLayout>
 </RelativeLayout>

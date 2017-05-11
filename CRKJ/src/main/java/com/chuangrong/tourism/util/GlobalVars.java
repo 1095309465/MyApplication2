@@ -9,6 +9,8 @@ public class GlobalVars {
      * 全局变量单例
      */
     private static GlobalVars vars = null;
+    //http://192.168.1.181:8080/api/allScenicSpot
+    public String baseUrl = "http://192.168.1.181:8080/";
 
 
     private GlobalVars() {
@@ -20,7 +22,7 @@ public class GlobalVars {
      *
      * @return GlobalVars
      */
-    public synchronized static GlobalVars getInstance() {
+    public synchronized static GlobalVars getVars() {
         if (vars == null) {
             vars = new GlobalVars();
         }

@@ -1,5 +1,6 @@
 package com.chuangrong.tourism.ui.activitys;
 
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.View;
 import android.widget.Button;
@@ -44,6 +45,11 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         btnMain4 = (Button) findViewById(R.id.btn_main4);
     }
 
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+    }
 
     @Override
     public void initListener() {

@@ -1,1 +1,1 @@
-include ':CRLY', ':IMLib', ':IMKit', ':CallLib', ':CallKit', ':CRKJ', ':cheesesquare', ':72G游戏助手课堂版zh'
+include ':CRLY', ':IMLib', ':IMKit', ':CallLib', ':CallKit', ':CRKJ', ':cheesesquare', ':RetrofitDemo', ':RecycleViewForScrollView'
