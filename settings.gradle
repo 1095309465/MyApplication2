@@ -1,1 +1,1 @@
-include ':CRLY', ':IMLib', ':IMKit', ':CallLib', ':CallKit', ':CRKJ', ':cheesesquare', ':RetrofitDemo', ':RecycleViewForScrollView'
+include ':CRLY', ':IMLib', ':IMKit', ':CallLib', ':CallKit', ':CRKJ', ':cheesesquare', ':RetrofitDemo'
