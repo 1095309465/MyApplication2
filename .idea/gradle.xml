@@ -14,7 +14,6 @@
             <option value="$PROJECT_DIR$/CallLib" />
             <option value="$PROJECT_DIR$/IMKit" />
             <option value="$PROJECT_DIR$/IMLib" />
-            <option value="$PROJECT_DIR$/cheesesquare" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -1,1 +1,1 @@
-include ':CRLY', ':IMLib', ':IMKit', ':CallLib', ':CallKit', ':CRKJ', ':cheesesquare'
+include ':CRLY', ':IMLib', ':IMKit', ':CallLib', ':CallKit', ':CRKJ'

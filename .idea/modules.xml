@@ -9,7 +9,6 @@
       <module fileurl="file://$PROJECT_DIR$/IMKit/IMKit.iml" filepath="$PROJECT_DIR$/IMKit/IMKit.iml" />
       <module fileurl="file://$PROJECT_DIR$/IMLib/IMLib.iml" filepath="$PROJECT_DIR$/IMLib/IMLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyApplication2.iml" filepath="$PROJECT_DIR$/MyApplication2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cheesesquare/cheesesquare.iml" filepath="$PROJECT_DIR$/cheesesquare/cheesesquare.iml" />
     </modules>
   </component>
 </project>
